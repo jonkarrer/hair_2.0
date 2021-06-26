@@ -1,0 +1,43 @@
+/*Header Font*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap");
+/*Paragraph Font*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
+
+@import url("styles/components/header.css");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --dark: #13292a;
+  --grey: #988780;
+  --lt-grey: #e7ded9;
+  --dk-grey: #695853;
+  --mauve: #8f6152;
+  --lt-mauve: #b8745b;
+  --dk-mauve: #662f1b;
+  --lt-gold: #ffe5b6;
+  --dk-gold: #ddbc85;
+  --font: holiday;
+  --font-header: montserrat classic;
+  --font-para: montserrat extra-light;
+
+  --std-padding: 5%;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+}
+p,
+a {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}

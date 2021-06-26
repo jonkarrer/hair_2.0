@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--dk-mauve);
+  position: fixed;
+  height: 50px;
+  width: 100vw;
+  padding: 0 var(--std-padding);
+  top: 0;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+}
+header nav a {
+  font-size: 1.5rem;
+}
+header .logo {
+  font-size: 28px;
+}
