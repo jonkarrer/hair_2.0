@@ -1,4 +1,4 @@
-const menu = document.getElementById("header_links");
+const menu = document.getElementById("mobile_menu");
 
 let menuOpen = false;
 
@@ -12,13 +12,5 @@ export function dropMenu() {
     //Open menu
     menu.style.height = "40vh";
     menuOpen = true;
-  }
-}
-export function resetHeader() {
-  if (window.innerWidth > 768) {
-    menu.style.height = "35px";
-    console.log(window.innerWidth);
-  } else {
-    menu.style.height = "0px";
   }
 }

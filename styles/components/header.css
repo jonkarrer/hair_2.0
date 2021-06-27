@@ -33,7 +33,10 @@ header {
 header .logo {
   font-size: 28px;
 }
-header nav {
+header #desktop_menu {
+  display: none;
+}
+header #mobile_menu {
   position: absolute;
   right: 0;
   left: 0;
@@ -68,22 +71,23 @@ header .mobile_burger div {
   header .mobile_burger {
     display: none;
   }
-  header nav {
-    position: static;
-    background: none;
+  header #desktop_menu {
     color: var(--dk-mauve);
     display: flex;
     justify-content: space-between;
-    transform: none;
+    align-items: center;
     height: 35px;
     width: 60%;
     max-width: 700px;
     font-size: 1.1rem;
   }
+  header #mobile_menu {
+    display: none;
+  }
 }
 /*Lg*/
 @media (min-width: 1024px) {
-  header nav {
+  header #desktop_menu {
     width: 60%;
     font-size: 1.5rem;
   }

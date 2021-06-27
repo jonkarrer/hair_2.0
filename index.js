@@ -1,4 +1,3 @@
-import { dropMenu, resetHeader } from "./utils/navDrop.js";
+import { dropMenu } from "./utils/navDrop.js";
 
 document.getElementById("burger").addEventListener("click", () => dropMenu());
-window.onresize = resetHeader;
