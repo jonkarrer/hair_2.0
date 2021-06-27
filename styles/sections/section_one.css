@@ -5,13 +5,13 @@ section.one {
   height: 100vh;
 }
 section .overlay {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7));
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
   position: absolute;
   top: 0;
   height: 100vh;
   width: 100vw;
 }
-article {
+article.hero {
   position: absolute;
   bottom: 60px;
   right: 5%;
@@ -28,7 +28,7 @@ article.hero h1 {
   color: var(--dk-gold);
 }
 article.hero p {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   color: var(--lt-gold);
   width: 50vw;
 }
