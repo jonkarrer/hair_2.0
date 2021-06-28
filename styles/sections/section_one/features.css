@@ -1,0 +1,35 @@
+.features_box {
+  display: none;
+}
+/*Lg*/
+@media (min-width: 1024px) {
+  .features_box {
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    width: 200px;
+    display: grid;
+    place-items: center;
+  }
+  .features_box div {
+    display: grid;
+    padding: 10px;
+    gap: 5px;
+  }
+  .features_box h3 {
+    color: var(--dk-gold);
+    font-size: var(--sm);
+  }
+  .features_box menu {
+    display: grid;
+    gap: 5px;
+    padding: 5px;
+  }
+  .features_box menu p {
+    color: white;
+  }
+  .features_box div img {
+    width: 60px;
+  }
+}

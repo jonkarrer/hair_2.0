@@ -1,3 +1,7 @@
+/*Turn of desktop version of nav menu*/
+header #desktop_menu {
+  display: none;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -12,10 +16,6 @@ header {
 }
 header .logo {
   font-size: 28px;
-}
-/*Turn of desktop version of nav menu*/
-header #desktop_menu {
-  display: none;
 }
 header #mobile_menu {
   position: absolute;
@@ -42,6 +42,12 @@ header .mobile_burger div {
   background: white;
 }
 
+/******
+****
+* Responsive Design Section
+****
+*****/
+
 /*Md*/
 @media (min-width: 768px) {
   header .logo {
@@ -59,17 +65,19 @@ header .mobile_burger div {
     align-items: center;
     height: 35px;
     width: 60%;
-    max-width: 700px;
+    max-width: 600px;
     font-size: 1.1rem;
   }
 }
+
 /*Lg*/
 @media (min-width: 1024px) {
   header #desktop_menu {
     width: 60%;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 }
+
 /*2xl*/
 @media (min-width: 1536px) {
   header {
@@ -84,6 +92,7 @@ header .mobile_burger div {
     max-width: 1000px;
   }
 }
+
 /*3xl*/
 @media (min-width: 3000px) {
   header {
