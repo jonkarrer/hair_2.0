@@ -24,6 +24,17 @@
   --font-para: montserrat extra-light;
 
   --std-padding: 5%;
+
+  /*Font Sizes*/
+  --k: 10rem;
+  --kp: 3.5rem;
+  --xxxl: 5.5rem;
+  --xxl: 4.8rem;
+  --xl: 4.2rem;
+  --lg: 3rem;
+  --base: 2rem;
+  --sm: 1.5rem;
+  --xs: 1.2rem;
 }
 h1,
 h2,
@@ -61,4 +72,10 @@ a {
 }
 /*2xl*/
 @media (min-width: 1536px) {
+}
+/*3xl*/
+@media (min-width: 3000px) {
+}
+/*4k*/
+@media (min-width: 3000px) {
 }

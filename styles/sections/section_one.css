@@ -1,5 +1,5 @@
 section.one {
-  background-image: url("../../assets/hero.jpg");
+  background-image: url("../../assets/hero_mobile2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -13,8 +13,8 @@ section .overlay {
 }
 article.hero {
   position: absolute;
-  bottom: 60px;
-  right: 5%;
+  bottom: 30%;
+  margin-left: 10px;
   border-left: var(--dk-mauve) solid 6px;
   display: grid;
   place-content: center;
@@ -24,17 +24,20 @@ article.hero {
   padding-bottom: 20px;
 }
 article.hero h1 {
-  font-size: 4.2rem;
+  font-size: var(--lg);
   color: var(--dk-gold);
 }
 article.hero p {
-  font-size: 1.5rem;
+  font-size: var(--xs);
   color: var(--lt-gold);
-  width: 50vw;
+  width: 80vw;
 }
 article.hero span {
   display: flex;
   align-items: center;
+}
+article.hero span:hover {
+  cursor: pointer;
 }
 article.hero a {
   font-size: 1.5rem;
@@ -43,4 +46,73 @@ article.hero a {
 }
 article.hero img {
   width: 1.5rem;
+}
+/*Xs*/
+@media (min-width: 500px) {
+}
+/*Sm*/
+@media (min-width: 640px) {
+}
+/*Md*/
+@media (min-width: 768px) {
+  section.one {
+    background-image: url("../../assets/hero.jpg");
+  }
+  article.hero {
+    position: absolute;
+    bottom: 60px;
+    right: 5%;
+    height: auto;
+  }
+  article.hero h1 {
+    font-size: var(--xl);
+  }
+  article.hero p {
+    font-size: var(--sm);
+    width: 50vw;
+  }
+  article.hero a {
+    font-size: var(--sm);
+  }
+}
+/*Lg*/
+@media (min-width: 1024px) {
+}
+/*Xl*/
+@media (min-width: 1280px) {
+}
+/*2xl*/
+@media (min-width: 1536px) {
+  article.hero h1 {
+    font-size: var(--xxxl);
+  }
+  article.hero p {
+    font-size: var(--base);
+    width: 50vw;
+  }
+  article.hero a {
+    font-size: var(--base);
+  }
+  article.hero img {
+    width: 3rem;
+  }
+}
+/*3xl*/
+@media (min-width: 2000px) {
+  article.hero h1 {
+    font-size: var(--k);
+  }
+  article.hero p {
+    font-size: var(--kp);
+    width: 50vw;
+  }
+  article.hero a {
+    font-size: var(--kp);
+  }
+  article.hero img {
+    width: 4rem;
+  }
+}
+/*4k*/
+@media (min-width: 3000px) {
 }
