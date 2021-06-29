@@ -1,6 +1,6 @@
 # Hair by Amanda 2.0
 
-A complete overhaul of a clients site. They want a moodier look with updated pictures and services.
+A complete overhaul of a clients site. They want a moodier look with updated pictures and services. I have learned alot more since I did this site a year ago so I will apply more modern techniques.
 
 ## Table of contents
 

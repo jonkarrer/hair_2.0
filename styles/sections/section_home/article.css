@@ -34,11 +34,17 @@ article.hero p {
     height: auto;
   }
   article.hero h1 {
-    font-size: var(--xl);
+    font-size: var(--lg);
   }
   article.hero p {
     font-size: var(--sm);
     width: 50vw;
+  }
+}
+/*Lg*/
+@media (min-width: 1024px) {
+  article.hero h1 {
+    font-size: var(--xl);
   }
 }
 
