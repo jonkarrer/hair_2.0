@@ -26,7 +26,7 @@ section.home .overlay {
 /*Md*/
 @media (min-width: 768px) {
   section.home {
-    background-image: url("../../../assets/home/hero.jpg");
+    background-image: url("../../../assets/Home/hero.jpg");
     display: block;
   }
 }
