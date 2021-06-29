@@ -7,17 +7,16 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 5px 20px;
   position: fixed;
   top: 0;
   width: 100vw;
   height: 40px;
   z-index: 2;
-  color: white;
+  color: var(--dk-mauve);
 }
 header .logo {
   font-size: 28px;
-  color: var(--dk-mauve);
 }
 header #mobile_menu {
   position: absolute;
@@ -53,10 +52,10 @@ header .mobile_burger div {
 /*Md*/
 @media (min-width: 768px) {
   header {
-    padding: 0 40px;
+    padding: 30px 40px;
   }
   header .logo {
-    font-size: 32px;
+    font-size: 30px;
   }
   /*Turn of mobile version nav menu*/
   header .mobile_burger,
@@ -64,14 +63,13 @@ header .mobile_burger div {
     display: none;
   }
   header #desktop_menu {
-    color: var(--dk-mauve);
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 35px;
     width: 60%;
-    max-width: 600px;
-    font-size: 1.1rem;
+    max-width: 430px;
+    font-size: 1rem;
   }
 }
 
@@ -79,14 +77,15 @@ header .mobile_burger div {
 @media (min-width: 1024px) {
   header #desktop_menu {
     width: 60%;
-    font-size: 1.3rem;
+    max-width: 480px;
+    font-size: 1.1rem;
   }
 }
 
 /*3xl*/
 @media (min-width: 2000px) {
   header {
-    padding: 0 60px;
+    padding: 5px 60px;
   }
   header {
     height: 80px;
@@ -96,7 +95,7 @@ header .mobile_burger div {
   }
   header #desktop_menu {
     width: 60%;
-    font-size: 2rem;
+    font-size: 1.8rem;
     max-width: 1000px;
   }
 }
