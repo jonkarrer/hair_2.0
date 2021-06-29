@@ -8,10 +8,10 @@
 .btn a {
   font-size: 1.5rem;
   padding-right: 0.5rem;
-  color: white;
+  color: var(--lt-grey);
 }
 .btn .arrow_icon {
-  width: 1.5rem;
+  width: 1.6rem;
 }
 
 /*Md*/

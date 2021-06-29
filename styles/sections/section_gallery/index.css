@@ -1,0 +1,13 @@
+@import url("./top_row.css");
+@import url("./mid_row.css");
+@import url("./bottom_row.css");
+section.gallery {
+  background: var(--grey);
+  padding: 60px 0;
+}
+section.gallery .wrapper {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  place-items: center;
+}
