@@ -4,8 +4,6 @@ article.hero {
 }
 
 article.hero {
-  position: absolute;
-  bottom: 30%;
   margin-left: 10px;
   border-left: var(--dk-mauve) solid 6px;
   display: grid;
@@ -14,10 +12,12 @@ article.hero {
   padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
+  z-index: 1;
 }
 article.hero h1 {
   font-size: var(--lg);
   color: var(--dk-gold);
+  line-height: 1.1;
 }
 article.hero p {
   font-size: var(--xs);
@@ -40,9 +40,6 @@ article.hero p {
     font-size: var(--sm);
     width: 50vw;
   }
-  article.hero a {
-    font-size: var(--sm);
-  }
 }
 
 /*2xl*/
@@ -57,9 +54,6 @@ article.hero p {
   article.hero p {
     font-size: var(--base);
     width: 50vw;
-  }
-  article.hero a {
-    font-size: var(--base);
   }
   article.hero img {
     width: 3rem;
@@ -76,13 +70,7 @@ article.hero p {
     font-size: var(--k);
   }
   article.hero p {
-    font-size: var(--kp);
+    font-size: var(--lg);
     width: 50vw;
-  }
-  article.hero a {
-    font-size: var(--kp);
-  }
-  article.hero img {
-    width: 4rem;
   }
 }

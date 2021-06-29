@@ -51,6 +51,22 @@ section.about article span cite {
     gap: 20px;
   }
   section.about article h2 {
+    font-size: var(--md);
+  }
+  section.about article p {
+    font-size: var(--xs);
+  }
+  section.about article span cite {
+    float: right;
+    font-size: var(--sm);
+  }
+}
+/*Xl*/
+@media (min-width: 1280px) {
+}
+/*2xl*/
+@media (min-width: 1536px) {
+  section.about article h2 {
     font-size: var(--lg);
   }
   section.about article p {
@@ -61,23 +77,17 @@ section.about article span cite {
     font-size: var(--base);
   }
 }
-/*Xl*/
-@media (min-width: 1280px) {
-}
-/*2xl*/
-@media (min-width: 1536px) {
-}
 /*3xl*/
 @media (min-width: 2000px) {
   section.about .wrapper {
-    padding: 40px;
+    padding: 60px;
     max-width: 2000px;
   }
   section.about article {
     gap: 30px;
   }
   section.about article h2 {
-    font-size: var(--xxxxl);
+    font-size: var(--xxxl);
   }
   section.about article p {
     line-height: 1.8;
@@ -85,7 +95,7 @@ section.about article span cite {
   }
   section.about article span cite {
     float: right;
-    font-size: var(--xl);
+    font-size: var(--lg);
   }
 }
 /*4k*/
@@ -102,7 +112,7 @@ section.about article span cite {
   }
   section.about article p {
     line-height: 1.8;
-    font-size: var(--kp);
+    font-size: var(--md);
   }
   section.about article span cite {
     float: right;

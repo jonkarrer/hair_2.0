@@ -27,12 +27,13 @@
   --std-padding: 5%;
 
   /*Font Sizes*/
-  --k: 9rem;
+  --k: 8rem;
   --xxxxl: 6rem;
   --xxxl: 5.5rem;
   --xxl: 4.8rem;
   --xl: 4.2rem;
   --lg: 3rem;
+  --md: 2.5rem;
   --base: 2rem;
   --sm: 1.4rem;
   --xs: 1.2rem;

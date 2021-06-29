@@ -6,6 +6,8 @@ section.home {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  display: flex;
+  align-items: center;
 }
 section.home .overlay {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
@@ -23,5 +25,10 @@ section.home .overlay {
 @media (min-width: 768px) {
   section.home {
     background-image: url("../../../assets/hero.jpg");
+    min-height: 500px;
+    display: block;
+  }
+  section.home .overlay {
+    min-height: 500px;
   }
 }
