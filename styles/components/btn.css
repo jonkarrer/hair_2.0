@@ -1,0 +1,42 @@
+.btn {
+  display: flex;
+  align-items: center;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.btn a {
+  font-size: 1.5rem;
+  padding-right: 0.5rem;
+  color: white;
+}
+.btn .arrow_icon {
+  width: 1.5rem;
+}
+
+/*Md*/
+@media (min-width: 768px) {
+  .btn a {
+    font-size: var(--sm);
+  }
+}
+
+/*2xl*/
+@media (min-width: 1536px) {
+  .btn a {
+    font-size: var(--base);
+  }
+  .btn .arrow_icon {
+    width: 3rem;
+  }
+}
+
+/*3xl*/
+@media (min-width: 2500px) {
+  .btn a {
+    font-size: var(--lg);
+  }
+  .btn .arrow_icon {
+    width: 4rem;
+  }
+}

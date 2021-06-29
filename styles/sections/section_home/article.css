@@ -1,3 +1,8 @@
+@import url("../../animations/fade_in.css");
+article.hero {
+  animation: fade_in 2s;
+}
+
 article.hero {
   position: absolute;
   bottom: 30%;
@@ -18,21 +23,6 @@ article.hero p {
   font-size: var(--xs);
   color: var(--lt-gold);
   width: 80vw;
-}
-article.hero span {
-  display: flex;
-  align-items: center;
-}
-article.hero span:hover {
-  cursor: pointer;
-}
-article.hero a {
-  font-size: 1.5rem;
-  padding-right: 0.5rem;
-  color: white;
-}
-article.hero img {
-  width: 1.5rem;
 }
 
 /*Md*/
@@ -57,6 +47,10 @@ article.hero img {
 
 /*2xl*/
 @media (min-width: 1536px) {
+  article.hero {
+    bottom: 10%;
+    gap: 30px;
+  }
   article.hero h1 {
     font-size: var(--xxxl);
   }
@@ -73,7 +67,11 @@ article.hero img {
 }
 
 /*3xl*/
-@media (min-width: 2000px) {
+@media (min-width: 2500px) {
+  article.hero {
+    bottom: 15%;
+    gap: 40px;
+  }
   article.hero h1 {
     font-size: var(--k);
   }

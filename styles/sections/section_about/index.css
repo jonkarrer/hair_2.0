@@ -1,0 +1,111 @@
+section.about {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+section.about .wrapper {
+  width: 95%;
+  padding: 10px;
+  max-width: 800px;
+  border-left: var(--dk-grey) solid thick;
+}
+section.about article {
+  display: grid;
+  gap: 10px;
+}
+section.about article h2 {
+  font-size: var(--base);
+}
+section.about article span cite {
+  float: right;
+}
+
+/*Sm*/
+@media (min-width: 640px) {
+  section.about {
+    min-height: 500px;
+  }
+  section.about .wrapper {
+    padding: 30px;
+    max-width: 800px;
+  }
+  section.about article h2 {
+    font-size: var(--base);
+  }
+  section.about article p {
+    line-height: 1.6;
+  }
+  section.about article span cite {
+    float: right;
+    font-size: var(--sm);
+  }
+}
+
+/*Lg*/
+@media (min-width: 1024px) {
+  section.about .wrapper {
+    padding: 30px;
+    max-width: 1000px;
+  }
+  section.about article {
+    gap: 20px;
+  }
+  section.about article h2 {
+    font-size: var(--lg);
+  }
+  section.about article p {
+    font-size: var(--sm);
+  }
+  section.about article span cite {
+    float: right;
+    font-size: var(--base);
+  }
+}
+/*Xl*/
+@media (min-width: 1280px) {
+}
+/*2xl*/
+@media (min-width: 1536px) {
+}
+/*3xl*/
+@media (min-width: 2000px) {
+  section.about .wrapper {
+    padding: 40px;
+    max-width: 2000px;
+  }
+  section.about article {
+    gap: 30px;
+  }
+  section.about article h2 {
+    font-size: var(--xxxxl);
+  }
+  section.about article p {
+    line-height: 1.8;
+    font-size: var(--base);
+  }
+  section.about article span cite {
+    float: right;
+    font-size: var(--xl);
+  }
+}
+/*4k*/
+@media (min-width: 3000px) {
+  section.about .wrapper {
+    padding: 40px;
+    max-width: 2000px;
+  }
+  section.about article {
+    gap: 30px;
+  }
+  section.about article h2 {
+    font-size: var(--k);
+  }
+  section.about article p {
+    line-height: 1.8;
+    font-size: var(--kp);
+  }
+  section.about article span cite {
+    float: right;
+    font-size: var(--xl);
+  }
+}

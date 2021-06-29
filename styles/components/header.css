@@ -1,7 +1,8 @@
-/*Turn of desktop version of nav menu*/
+/*Turn off desktop version of nav menu*/
 header #desktop_menu {
   display: none;
 }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -16,6 +17,7 @@ header {
 }
 header .logo {
   font-size: 28px;
+  color: var(--dk-mauve);
 }
 header #mobile_menu {
   position: absolute;
@@ -50,6 +52,9 @@ header .mobile_burger div {
 
 /*Md*/
 @media (min-width: 768px) {
+  header {
+    padding: 0 40px;
+  }
   header .logo {
     font-size: 32px;
   }
@@ -78,8 +83,11 @@ header .mobile_burger div {
   }
 }
 
-/*2xl*/
-@media (min-width: 1536px) {
+/*3xl*/
+@media (min-width: 2000px) {
+  header {
+    padding: 0 60px;
+  }
   header {
     height: 80px;
   }
@@ -93,7 +101,7 @@ header .mobile_burger div {
   }
 }
 
-/*3xl*/
+/*4xl*/
 @media (min-width: 3000px) {
   header {
     height: 80px;

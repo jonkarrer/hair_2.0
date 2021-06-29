@@ -2,8 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap");
 /*Paragraph Font*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
-
+/*Components*/
 @import url("styles/components/header.css");
+@import url("styles/components/btn.css");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -26,14 +27,14 @@
   --std-padding: 5%;
 
   /*Font Sizes*/
-  --k: 10rem;
-  --kp: 3.5rem;
+  --k: 9rem;
+  --xxxxl: 6rem;
   --xxxl: 5.5rem;
   --xxl: 4.8rem;
   --xl: 4.2rem;
   --lg: 3rem;
   --base: 2rem;
-  --sm: 1.5rem;
+  --sm: 1.4rem;
   --xs: 1.2rem;
   --xxs: 0.8rem;
 }
@@ -75,7 +76,7 @@ a {
 @media (min-width: 1536px) {
 }
 /*3xl*/
-@media (min-width: 3000px) {
+@media (min-width: 2000px) {
 }
 /*4k*/
 @media (min-width: 3000px) {
