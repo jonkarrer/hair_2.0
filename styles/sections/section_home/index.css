@@ -2,7 +2,7 @@
 @import url("./features.css");
 
 section.home {
-  background-image: url("../../../assets/home/hero_mobile2.jpg");
+  background-image: url("../../../assets/Home/hero_mobile2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
