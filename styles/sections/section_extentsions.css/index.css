@@ -2,11 +2,11 @@ section.extentsions {
   padding: 40px 0;
 }
 section.extentsions span a {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 section.extentsions h1 {
   text-align: center;
-  font-size: var(--base);
+  font-size: var(--md);
   margin-bottom: 30px;
   color: var(--dk-mauve);
 }
@@ -14,7 +14,7 @@ section.extentsions h3 {
   font-size: var(--sm);
 }
 section.extentsions p {
-  font-weight: 200;
+  line-height: 1.4;
 }
 
 section.extentsions .wrapper {
@@ -43,4 +43,40 @@ section.extentsions .wrapper div:last-child {
 }
 section.extentsions .wrapper div:last-child h3 {
   color: var(--lt-gold);
+}
+section.extentsions .wrapper div:last-child img {
+  width: 20px;
+}
+
+/*Md*/
+@media (min-width: 768px) {
+  section.extentsions .wrapper {
+    display: grid;
+    grid: repeat(3, 1fr) / repeat(2, 1fr);
+    gap: 20px;
+    width: 96%;
+    margin: auto;
+  }
+  section.extentsions h1 {
+    font-size: var(--md);
+    margin: 60px 0;
+  }
+  section.extentsions .wrapper div:last-child img {
+    width: 30px;
+  }
+}
+
+/*Lg*/
+@media (min-width: 1024px) {
+  section.extentsions .wrapper {
+    display: grid;
+    grid: repeat(2, 1fr) / repeat(3, 1fr);
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+  }
+  section.extentsions h1 {
+    font-size: var(--lg);
+    margin: 80px 0;
+  }
 }
