@@ -31,13 +31,6 @@
     width: 1.6rem;
   }
 }
-/*Md*/
-@media (min-width: 768px) {
-  .btn a {
-    font-size: var(--sm);
-  }
-}
-
 /*2xl*/
 @media (min-width: 1536px) {
   .btn a {
@@ -49,7 +42,7 @@
 }
 
 /*3xl*/
-@media (min-width: 2500px) {
+@media (min-width: 2000px) {
   .btn a {
     font-size: var(--lg);
   }

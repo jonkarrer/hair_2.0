@@ -64,7 +64,6 @@ section.gallery .mid-row .right {
     gap: 15px;
   }
   section.gallery .mid-row h3 {
-    color: var(--lt-gold);
     font-size: 1.1rem;
   }
   section.gallery .mid-row cite {
@@ -78,13 +77,37 @@ section.gallery .mid-row .right {
 /*Lg*/
 @media (min-width: 1024px) {
   section.gallery .mid-row {
-    height: 30vh;
+    height: 33vh;
   }
   section.gallery .mid-row h3 {
-    color: var(--lt-gold);
     font-size: var(--sm);
   }
   section.gallery .mid-row cite {
     font-size: var(--sm);
+  }
+}
+
+/*XXl*/
+@media (min-width: 1536px) {
+  section.gallery .mid-row h3 {
+    font-size: var(--base);
+  }
+  section.gallery .mid-row cite {
+    margin-top: 40px;
+    font-size: var(--base);
+  }
+}
+
+/*2k*/
+@media (min-width: 2000px) {
+  section.gallery .mid-row {
+    height: 30vh;
+  }
+  section.gallery .mid-row h3 {
+    font-size: var(--lg);
+  }
+  section.gallery .mid-row cite {
+    margin-top: 40px;
+    font-size: var(--lg);
   }
 }

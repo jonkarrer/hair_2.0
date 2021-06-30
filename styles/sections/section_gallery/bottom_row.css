@@ -81,3 +81,27 @@ section.gallery .bottom_row .right article .ibe_icon {
     width: 150px;
   }
 }
+
+/*XXl*/
+@media (min-width: 1536px) {
+  section.gallery .bottom_row .right article {
+    gap: 50px;
+    font-size: var(--base);
+  }
+
+  section.gallery .bottom_row .right article .ibe_icon {
+    width: 200px;
+  }
+}
+
+/*2k*/
+@media (min-width: 2000px) {
+  section.gallery .bottom_row .right article {
+    gap: 50px;
+    font-size: var(--lg);
+  }
+
+  section.gallery .bottom_row .right article .ibe_icon {
+    width: 250px;
+  }
+}
