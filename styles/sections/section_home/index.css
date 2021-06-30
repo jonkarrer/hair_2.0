@@ -6,7 +6,7 @@ section.home {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  min-height: 400px;
+  min-height: 300px;
   display: flex;
   align-items: center;
 }
