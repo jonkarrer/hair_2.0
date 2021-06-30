@@ -6,7 +6,6 @@ section.gallery .bottom_row {
   gap: 6px;
   min-height: 240px;
 }
-
 section.gallery .bottom_row .left {
   flex: 2;
   padding-right: 15px;
@@ -14,7 +13,6 @@ section.gallery .bottom_row .left {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 section.gallery .bottom_row .right {
   flex: 1;
   background: var(--dk-grey);
@@ -22,7 +20,6 @@ section.gallery .bottom_row .right {
   align-items: center;
   justify-content: center;
 }
-
 section.gallery .bottom_row .right article {
   color: white;
   display: grid;
@@ -30,10 +27,10 @@ section.gallery .bottom_row .right article {
   gap: 15px;
   font-size: 0.6rem;
 }
-
 section.gallery .bottom_row .right article .ibe_icon {
   width: 50px;
 }
+
 /*Sm*/
 @media (min-width: 640px) {
   section.gallery .bottom_row {
@@ -41,26 +38,23 @@ section.gallery .bottom_row .right article .ibe_icon {
     height: 35vh;
     gap: 15px;
   }
-
   section.gallery .bottom_row .right article {
     gap: 20px;
     font-size: var(--xxs);
   }
-
   section.gallery .bottom_row .right article .ibe_icon {
     width: 75px;
   }
 }
+
 /*Md*/
 @media (min-width: 768px) {
   section.gallery .bottom_row {
     height: 45vh;
   }
-
   section.gallery .bottom_row .right article {
     font-size: var(--xs);
   }
-
   section.gallery .bottom_row .right article .ibe_icon {
     width: 100px;
   }
@@ -71,12 +65,10 @@ section.gallery .bottom_row .right article .ibe_icon {
   section.gallery .bottom_row {
     height: 60vh;
   }
-
   section.gallery .bottom_row .right article {
     gap: 25px;
     font-size: var(--sm);
   }
-
   section.gallery .bottom_row .right article .ibe_icon {
     width: 150px;
   }
@@ -88,7 +80,6 @@ section.gallery .bottom_row .right article .ibe_icon {
     gap: 50px;
     font-size: var(--base);
   }
-
   section.gallery .bottom_row .right article .ibe_icon {
     width: 200px;
   }
@@ -100,7 +91,6 @@ section.gallery .bottom_row .right article .ibe_icon {
     gap: 50px;
     font-size: var(--lg);
   }
-
   section.gallery .bottom_row .right article .ibe_icon {
     width: 250px;
   }

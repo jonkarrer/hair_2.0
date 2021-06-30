@@ -47,6 +47,9 @@ h5 {
   font-family: "Playfair Display", serif;
   font-weight: 500;
 }
+p {
+  font-weight: 300;
+}
 p,
 a {
   font-family: "Montserrat", sans-serif;

@@ -16,7 +16,6 @@ section.gallery .top-row .right {
   background-image: url("../../../assets/Gallery/b.jpg");
   background-size: cover;
 }
-
 section.gallery .top-row .mid {
   display: flex;
   gap: 6px;
@@ -43,6 +42,7 @@ section.gallery .top-row .mid div {
   background-repeat: no-repeat;
   flex: 1;
 }
+
 /*Sm*/
 @media (min-width: 640px) {
   section.gallery .top-row {
@@ -58,6 +58,7 @@ section.gallery .top-row .mid div {
     padding: 30px;
   }
 }
+
 /*Md*/
 @media (min-width: 768px) {
   section.gallery .top-row {
@@ -71,6 +72,7 @@ section.gallery .top-row .mid div {
     padding: 30px;
   }
 }
+
 /*Lg*/
 @media (min-width: 1024px) {
   section.gallery .top-row {

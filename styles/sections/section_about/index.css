@@ -62,10 +62,8 @@ section.about article span cite {
     font-size: var(--sm);
   }
 }
-/*Xl*/
-@media (min-width: 1280px) {
-}
-/*2xl*/
+
+/*XXl*/
 @media (min-width: 1536px) {
   section.about article h2 {
     font-size: var(--lg);
@@ -78,7 +76,8 @@ section.about article span cite {
     font-size: var(--base);
   }
 }
-/*3xl*/
+
+/*2k*/
 @media (min-width: 2000px) {
   section.about .wrapper {
     padding: 60px;
@@ -99,14 +98,12 @@ section.about article span cite {
     font-size: var(--lg);
   }
 }
+
 /*4k*/
 @media (min-width: 3000px) {
   section.about .wrapper {
     padding: 40px;
     max-width: 2000px;
-  }
-  section.about article {
-    gap: 30px;
   }
   section.about article h2 {
     font-size: var(--k);
