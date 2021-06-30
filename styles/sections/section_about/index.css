@@ -1,5 +1,6 @@
 section.about {
   height: 100vh;
+  min-height: 400px;
   display: grid;
   place-items: center;
 }

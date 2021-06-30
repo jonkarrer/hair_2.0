@@ -42,10 +42,10 @@ section.ibe_black_strip article button:hover {
     font-size: var(--sm);
   }
 }
-/*Md*/
-@media (min-width: 768px) {
+/*Lg*/
+@media (min-width: 1024px) {
   section.ibe_black_strip article button {
-    font-size: var(--xs);
+    font-size: var(--xxs);
   }
 }
 /*2xl*/

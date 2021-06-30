@@ -1,9 +1,10 @@
 section.gallery .mid-row {
-  margin-top: 15px;
-  height: 30vh;
+  margin-top: 6px;
+  height: 18vh;
   width: 100%;
   display: flex;
-  gap: 15px;
+  gap: 6px;
+  min-height: 150px;
 }
 section.gallery .mid-row .left,
 section.gallery .mid-row .mid,
@@ -24,18 +25,111 @@ section.gallery .mid-row .left div {
 }
 section.gallery .mid-row h3 {
   color: var(--lt-gold);
-  font-size: var(--sm);
+  font-size: var(--xxs);
 }
 section.gallery .mid-row cite {
   color: white;
-  font-size: var(--sm);
+  font-size: var(--xxs);
   text-align: right;
 }
 section.gallery .mid-row .mid {
-  background-image: url("../../../assets/Gallery/xtent.jpeg");
-  background-size: cover;
+  display: none;
 }
 section.gallery .mid-row .right {
   background-image: url("../../../assets/Gallery/d.jpg");
   background-size: cover;
+}
+/*Sm*/
+@media (min-width: 640px) {
+  section.gallery .mid-row {
+    height: 30vh;
+  }
+  section.gallery .mid-row .left {
+    background: var(--dk-grey);
+    display: grid;
+    place-content: center;
+  }
+  section.gallery .mid-row .left div {
+    width: 75%;
+    margin: auto;
+    display: grid;
+    gap: 15px;
+  }
+  section.gallery .mid-row h3 {
+    color: var(--lt-gold);
+    font-size: var(--xxs);
+  }
+  section.gallery .mid-row cite {
+    color: white;
+    font-size: var(--xs);
+    text-align: right;
+  }
+  section.gallery .mid-row .mid {
+    display: none;
+  }
+  section.gallery .mid-row .right {
+    background-image: url("../../../assets/Gallery/d.jpg");
+    background-size: cover;
+  }
+}
+/*Md*/
+@media (min-width: 768px) {
+  section.gallery .mid-row {
+    margin-top: 15px;
+    height: 23vh;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+  }
+  section.gallery .mid-row .left,
+  section.gallery .mid-row .mid,
+  section.gallery .mid-row .right {
+    flex: 1;
+  }
+
+  section.gallery .mid-row .left {
+    background: var(--dk-grey);
+    display: grid;
+    place-content: center;
+  }
+  section.gallery .mid-row .left div {
+    width: 75%;
+    margin: auto;
+    display: grid;
+    gap: 15px;
+  }
+  section.gallery .mid-row h3 {
+    color: var(--lt-gold);
+    font-size: 1.1rem;
+  }
+  section.gallery .mid-row cite {
+    color: white;
+    font-size: 1rem;
+    text-align: right;
+  }
+  section.gallery .mid-row .mid {
+    display: block;
+    background-image: url("../../../assets/Gallery/xtent.jpeg");
+    background-size: cover;
+  }
+  section.gallery .mid-row .right {
+    background-image: url("../../../assets/Gallery/d.jpg");
+    background-size: cover;
+  }
+}
+
+/*Lg*/
+@media (min-width: 1024px) {
+  section.gallery .mid-row {
+    height: 30vh;
+  }
+  section.gallery .mid-row h3 {
+    color: var(--lt-gold);
+    font-size: var(--sm);
+  }
+  section.gallery .mid-row cite {
+    color: white;
+    font-size: var(--sm);
+    text-align: right;
+  }
 }

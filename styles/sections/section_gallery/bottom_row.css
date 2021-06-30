@@ -1,9 +1,10 @@
 section.gallery .bottom_row {
-  margin-top: 15px;
-  height: 60vh;
+  margin-top: 6px;
+  height: 28vh;
   width: 100%;
   display: flex;
-  gap: 15px;
+  gap: 6px;
+  min-height: 200px;
 }
 
 section.gallery .bottom_row .left {
@@ -27,9 +28,101 @@ section.gallery .bottom_row .right article {
   display: grid;
   place-items: center;
   gap: 20px;
-  font-size: var(--sm);
+  font-size: 0.6rem;
 }
 
 section.gallery .bottom_row .right article .ibe_icon {
-  width: 35%;
+  width: 50px;
+}
+/*Sm*/
+@media (min-width: 640px) {
+  section.gallery .bottom_row {
+    margin-top: 15px;
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+  }
+
+  section.gallery .bottom_row .left {
+    flex: 2;
+    padding-right: 15px;
+    background-image: url("../../../assets/Gallery/q.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  section.gallery .bottom_row .right {
+    flex: 1;
+    background: var(--dk-grey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  section.gallery .bottom_row .right article {
+    color: white;
+    display: grid;
+    place-items: center;
+    gap: 20px;
+    font-size: var(--xxs);
+  }
+
+  section.gallery .bottom_row .right article .ibe_icon {
+    width: 75px;
+  }
+}
+/*Md*/
+@media (min-width: 768px) {
+  section.gallery .bottom_row {
+    margin-top: 15px;
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+  }
+
+  section.gallery .bottom_row .left {
+    flex: 2;
+    padding-right: 15px;
+    background-image: url("../../../assets/Gallery/q.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  section.gallery .bottom_row .right {
+    flex: 1;
+    background: var(--dk-grey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  section.gallery .bottom_row .right article {
+    color: white;
+    display: grid;
+    place-items: center;
+    gap: 20px;
+    font-size: var(--xs);
+  }
+
+  section.gallery .bottom_row .right article .ibe_icon {
+    width: 100px;
+  }
+}
+
+/*Lg*/
+@media (min-width: 1024px) {
+  section.gallery .bottom_row {
+    height: 60vh;
+  }
+
+  section.gallery .bottom_row .right article {
+    gap: 25px;
+    font-size: var(--sm);
+  }
+
+  section.gallery .bottom_row .right article .ibe_icon {
+    width: 150px;
+  }
 }

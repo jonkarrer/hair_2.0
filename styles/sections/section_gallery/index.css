@@ -6,8 +6,17 @@ section.gallery {
   padding: 60px 0;
 }
 section.gallery .wrapper {
-  width: 90%;
+  width: 96%;
   margin: auto;
   display: grid;
   place-items: center;
+}
+/*Sm*/
+@media (min-width: 640px) {
+  section.gallery .wrapper {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    place-items: center;
+  }
 }

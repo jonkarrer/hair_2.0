@@ -6,14 +6,31 @@
   cursor: pointer;
 }
 .btn a {
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding-right: 0.5rem;
   color: var(--lt-grey);
 }
 .btn .arrow_icon {
-  width: 1.6rem;
+  width: 1.2rem;
 }
-
+/*Sm*/
+@media (min-width: 640px) {
+  .btn {
+    display: flex;
+    align-items: center;
+  }
+  .btn:hover {
+    cursor: pointer;
+  }
+  .btn a {
+    font-size: 1.5rem;
+    padding-right: 0.5rem;
+    color: var(--lt-grey);
+  }
+  .btn .arrow_icon {
+    width: 1.6rem;
+  }
+}
 /*Md*/
 @media (min-width: 768px) {
   .btn a {
