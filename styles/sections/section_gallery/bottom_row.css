@@ -87,6 +87,10 @@ section.gallery .bottom_row .right article .ibe_icon {
 
 /*2k*/
 @media (min-width: 2000px) {
+  section.gallery .bottom_row {
+    margin-top: 40px;
+    gap: 40px;
+  }
   section.gallery .bottom_row .right article {
     gap: 50px;
     font-size: var(--lg);

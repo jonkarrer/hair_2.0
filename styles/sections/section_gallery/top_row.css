@@ -95,6 +95,12 @@ section.gallery .top-row .mid div {
 
 /*2k*/
 @media (min-width: 2000px) {
+  section.gallery .top-row {
+    gap: 40px;
+  }
+  section.gallery .top-row .mid {
+    gap: 40px;
+  }
   section.gallery .top-row .mid article {
     font-size: var(--lg);
     padding: 20px;

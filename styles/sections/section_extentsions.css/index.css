@@ -7,7 +7,7 @@ section.extentsions span a {
 section.extentsions h1 {
   text-align: center;
   font-size: var(--md);
-  margin-bottom: 30px;
+  margin: 60px 0;
   color: var(--dk-mauve);
 }
 section.extentsions h3 {
@@ -78,5 +78,105 @@ section.extentsions .wrapper div:last-child img {
   section.extentsions h1 {
     font-size: var(--lg);
     margin: 80px 0;
+  }
+}
+/*XXl*/
+@media (min-width: 1536px) {
+  section.extentsions {
+    padding: 80px 0;
+  }
+  section.extentsions .wrapper {
+    gap: 40px;
+  }
+  section.extentsions h1 {
+    font-size: var(--xxxl);
+    margin: 120px 0;
+  }
+  section.extentsions h3 {
+    font-size: var(--base);
+  }
+  section.extentsions p {
+    font-size: var(--sm);
+  }
+  section.extentsions .wrapper div img {
+    width: 120px;
+  }
+  section.extentsions .wrapper div {
+    height: 500px;
+    padding: 40px;
+    gap: 40px;
+  }
+  section.extentsions span a {
+    font-size: 2.5rem;
+  }
+  section.extentsions .wrapper div:last-child img {
+    width: 40px;
+  }
+}
+/*2k*/
+@media (min-width: 2000px) {
+  section.extentsions {
+    padding: 120px 0;
+  }
+  section.extentsions .wrapper {
+    gap: 50px;
+  }
+  section.extentsions h1 {
+    font-size: var(--xxxxl);
+    margin: 140px 0;
+  }
+  section.extentsions h3 {
+    font-size: var(--lg);
+  }
+  section.extentsions p {
+    font-size: 1.9rem;
+  }
+  section.extentsions .wrapper div img {
+    width: 160px;
+  }
+  section.extentsions .wrapper div {
+    height: 600px;
+    padding: 60px;
+    gap: 40px;
+  }
+  section.extentsions span a {
+    font-size: 3rem;
+  }
+  section.extentsions .wrapper div:last-child img {
+    width: 60px;
+  }
+}
+
+/*4k*/
+@media (min-width: 3000px) {
+  section.extentsions {
+    padding: 120px 0;
+  }
+  section.extentsions .wrapper {
+    gap: 60px;
+  }
+  section.extentsions h1 {
+    font-size: var(--k);
+    margin: 160px 0;
+  }
+  section.extentsions h3 {
+    font-size: 3.5rem;
+  }
+  section.extentsions p {
+    font-size: 2.5rem;
+  }
+  section.extentsions .wrapper div img {
+    width: 180px;
+  }
+  section.extentsions .wrapper div {
+    height: 800px;
+    padding: 80px;
+    gap: 40px;
+  }
+  section.extentsions span a {
+    font-size: 3.4rem;
+  }
+  section.extentsions .wrapper div:last-child img {
+    width: 60px;
   }
 }

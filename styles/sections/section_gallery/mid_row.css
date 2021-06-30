@@ -101,7 +101,9 @@ section.gallery .mid-row .right {
 /*2k*/
 @media (min-width: 2000px) {
   section.gallery .mid-row {
-    height: 30vh;
+    margin-top: 40px;
+    height: 33vh;
+    gap: 40px;
   }
   section.gallery .mid-row h3 {
     font-size: var(--lg);
