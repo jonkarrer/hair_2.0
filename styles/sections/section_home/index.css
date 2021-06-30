@@ -18,8 +18,7 @@ section.home .overlay {
   bottom: 0;
   left: 0;
   margin: auto;
-  height: 100vh;
-  min-height: 600px;
+  height: 100%;
   width: auto;
 }
 /*Sm*/
