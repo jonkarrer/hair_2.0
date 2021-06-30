@@ -4,7 +4,7 @@ section.gallery .bottom_row {
   width: 100%;
   display: flex;
   gap: 6px;
-  min-height: 200px;
+  min-height: 240px;
 }
 
 section.gallery .bottom_row .left {
@@ -27,7 +27,7 @@ section.gallery .bottom_row .right article {
   color: white;
   display: grid;
   place-items: center;
-  gap: 20px;
+  gap: 15px;
   font-size: 0.6rem;
 }
 
@@ -39,31 +39,10 @@ section.gallery .bottom_row .right article .ibe_icon {
   section.gallery .bottom_row {
     margin-top: 15px;
     height: 35vh;
-    width: 100%;
-    display: flex;
     gap: 15px;
   }
 
-  section.gallery .bottom_row .left {
-    flex: 2;
-    padding-right: 15px;
-    background-image: url("../../../assets/Gallery/q.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-  section.gallery .bottom_row .right {
-    flex: 1;
-    background: var(--dk-grey);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
   section.gallery .bottom_row .right article {
-    color: white;
-    display: grid;
-    place-items: center;
     gap: 20px;
     font-size: var(--xxs);
   }
@@ -75,34 +54,10 @@ section.gallery .bottom_row .right article .ibe_icon {
 /*Md*/
 @media (min-width: 768px) {
   section.gallery .bottom_row {
-    margin-top: 15px;
     height: 45vh;
-    width: 100%;
-    display: flex;
-    gap: 15px;
-  }
-
-  section.gallery .bottom_row .left {
-    flex: 2;
-    padding-right: 15px;
-    background-image: url("../../../assets/Gallery/q.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-  section.gallery .bottom_row .right {
-    flex: 1;
-    background: var(--dk-grey);
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   section.gallery .bottom_row .right article {
-    color: white;
-    display: grid;
-    place-items: center;
-    gap: 20px;
     font-size: var(--xs);
   }
 
