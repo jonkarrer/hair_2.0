@@ -1,0 +1,104 @@
+section.maintain {
+  padding: 40px 0;
+}
+section.maintain .headline {
+  margin: 80px 30px;
+  font-size: var(--sm);
+  font-weight: 400;
+}
+section.maintain .bi-fold {
+  margin: 10px;
+  display: grid;
+  gap: 50px;
+}
+section.maintain .bi-fold h2 {
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+section.maintain .bi-fold h3 {
+  font-size: var(--base);
+  border-top: var(--lt-grey) solid 1px;
+  width: 40%;
+  font-weight: 300;
+  padding: 25px 0;
+}
+section.maintain .bi-fold .right h3 {
+  border-top: var(--dk-grey) solid 1px;
+}
+section.maintain .bi-fold ul {
+  display: grid;
+  gap: 15px;
+}
+section.maintain .bi-fold ul p {
+  line-height: 1.6;
+}
+section.maintain .bi-fold .left {
+  display: grid;
+  gap: 25px;
+  background: var(--mauve);
+  color: var(--lt-grey);
+  padding: 30px;
+  border-radius: 0.2rem;
+}
+
+section.maintain .bi-fold .right {
+  display: grid;
+  gap: 25px;
+  background: white;
+  color: var(--dk-grey);
+  padding: 30px;
+  border-radius: 0.2rem;
+  border: var(--dk-grey) solid 1px;
+}
+
+/*Md*/
+@media (min-width: 768px) {
+  section.maintain .headline {
+    margin: 100px auto;
+    width: 80%;
+    font-size: 1.3rem;
+  }
+  section.maintain .wrapper {
+    width: 96%;
+    margin: auto;
+  }
+  section.maintain .bi-fold {
+    grid: 1fr / repeat(2, 1fr);
+    gap: 30px;
+    margin: auto;
+  }
+  section.maintain .bi-fold ul {
+    gap: 10px;
+  }
+  section.maintain .bi-fold h2 {
+    font-size: var(--md);
+  }
+
+  section.maintain .bi-fold .right {
+    display: block;
+    padding: 20px 30px;
+  }
+  section.maintain .bi-fold .right h2 {
+    margin-bottom: 30px;
+  }
+  section.maintain .bi-fold ul p {
+    font-size: var(--xs);
+    line-height: 1.4;
+  }
+}
+/*Lg*/
+@media (min-width: 1024px) {
+  section.maintain .headline {
+    margin: 120px auto;
+    width: 70%;
+    font-size: 1.5rem;
+  }
+  section.maintain .bi-fold ul p {
+    font-size: var(--sm);
+    line-height: 1.4;
+  }
+  section.maintain .wrapper {
+    width: 90%;
+    margin: auto;
+  }
+}

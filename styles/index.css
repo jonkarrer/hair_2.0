@@ -1,5 +1,6 @@
-@import url("./sections/section_home/index.css");
-@import url("./sections/section_ibe_black_strip/index.css");
-@import url("./sections/section_about/index.css");
-@import url("./sections/section_gallery/index.css");
-@import url("./sections/section_extentsions.css/index.css");
+@import url("./sections/home/index.css");
+@import url("./sections/ibe_black_strip/index.css");
+@import url("./sections/about/index.css");
+@import url("./sections/gallery/index.css");
+@import url("./sections/specialties/index.css");
+@import url("./sections/maintain/index.css");

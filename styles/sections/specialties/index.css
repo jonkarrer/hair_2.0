@@ -1,23 +1,23 @@
-section.extentsions {
+section.specialties {
   padding: 40px 0;
 }
-section.extentsions span a {
+section.specialties span a {
   font-size: 1.5rem;
 }
-section.extentsions h1 {
+section.specialties h1 {
   text-align: center;
   font-size: var(--md);
-  margin: 60px 0;
+  margin: 50px 0;
   color: var(--dk-mauve);
 }
-section.extentsions h3 {
+section.specialties h3 {
   font-size: var(--sm);
 }
-section.extentsions p {
+section.specialties p {
   line-height: 1.4;
 }
 
-section.extentsions .wrapper {
+section.specialties .wrapper {
   display: grid;
   grid: repeat(6, 1fr) / repeat(1, 1fr);
   gap: 20px;
@@ -25,8 +25,8 @@ section.extentsions .wrapper {
   margin: auto;
 }
 
-section.extentsions .wrapper div {
-  height: 300px;
+section.specialties .wrapper div {
+  height: 250px;
   display: grid;
   place-content: center;
   padding: 40px;
@@ -34,149 +34,149 @@ section.extentsions .wrapper div {
   border-radius: 0.2rem;
   box-shadow: 2px 2px 10px 4px rgba(0, 0, 0, 0.1);
 }
-section.extentsions .wrapper div img {
-  width: 50px;
+section.specialties .wrapper div img {
+  width: 40px;
 }
-section.extentsions .wrapper div:last-child {
+section.specialties .wrapper div:last-child {
   background: var(--mauve);
   color: var(--lt-grey);
 }
-section.extentsions .wrapper div:last-child h3 {
+section.specialties .wrapper div:last-child h3 {
   color: var(--lt-gold);
 }
-section.extentsions .wrapper div:last-child img {
+section.specialties .wrapper div:last-child img {
   width: 20px;
 }
 
 /*Md*/
 @media (min-width: 768px) {
-  section.extentsions .wrapper {
+  section.specialties .wrapper {
     display: grid;
     grid: repeat(3, 1fr) / repeat(2, 1fr);
     gap: 20px;
     width: 96%;
     margin: auto;
   }
-  section.extentsions h1 {
+  section.specialties h1 {
     font-size: var(--md);
     margin: 60px 0;
   }
-  section.extentsions .wrapper div:last-child img {
+  section.specialties .wrapper div:last-child img {
     width: 30px;
   }
 }
 
 /*Lg*/
 @media (min-width: 1024px) {
-  section.extentsions .wrapper {
+  section.specialties .wrapper {
     display: grid;
     grid: repeat(2, 1fr) / repeat(3, 1fr);
     gap: 20px;
     width: 90%;
     margin: auto;
   }
-  section.extentsions h1 {
+  section.specialties h1 {
     font-size: var(--lg);
     margin: 80px 0;
   }
 }
 /*XXl*/
 @media (min-width: 1536px) {
-  section.extentsions {
+  section.specialties {
     padding: 80px 0;
   }
-  section.extentsions .wrapper {
+  section.specialties .wrapper {
     gap: 40px;
   }
-  section.extentsions h1 {
+  section.specialties h1 {
     font-size: var(--xxxl);
     margin: 120px 0;
   }
-  section.extentsions h3 {
+  section.specialties h3 {
     font-size: var(--base);
   }
-  section.extentsions p {
+  section.specialties p {
     font-size: var(--sm);
   }
-  section.extentsions .wrapper div img {
+  section.specialties .wrapper div img {
     width: 120px;
   }
-  section.extentsions .wrapper div {
+  section.specialties .wrapper div {
     height: 500px;
     padding: 40px;
     gap: 40px;
   }
-  section.extentsions span a {
+  section.specialties span a {
     font-size: 2.5rem;
   }
-  section.extentsions .wrapper div:last-child img {
+  section.specialties .wrapper div:last-child img {
     width: 40px;
   }
 }
 /*2k*/
 @media (min-width: 2000px) {
-  section.extentsions {
+  section.specialties {
     padding: 120px 0;
   }
-  section.extentsions .wrapper {
+  section.specialties .wrapper {
     gap: 50px;
   }
-  section.extentsions h1 {
+  section.specialties h1 {
     font-size: var(--xxxxl);
     margin: 140px 0;
   }
-  section.extentsions h3 {
+  section.specialties h3 {
     font-size: var(--lg);
   }
-  section.extentsions p {
+  section.specialties p {
     font-size: 1.9rem;
   }
-  section.extentsions .wrapper div img {
+  section.specialties .wrapper div img {
     width: 160px;
   }
-  section.extentsions .wrapper div {
+  section.specialties .wrapper div {
     height: 600px;
     padding: 60px;
     gap: 40px;
   }
-  section.extentsions span a {
+  section.specialties span a {
     font-size: 3rem;
   }
-  section.extentsions .wrapper div:last-child img {
+  section.specialties .wrapper div:last-child img {
     width: 60px;
   }
 }
 
 /*4k*/
 @media (min-width: 3000px) {
-  section.extentsions {
+  section.specialties {
     padding: 120px 0;
   }
-  section.extentsions .wrapper {
+  section.specialties .wrapper {
     gap: 60px;
   }
-  section.extentsions h1 {
+  section.specialties h1 {
     font-size: var(--k);
     margin: 160px 0;
   }
-  section.extentsions h3 {
+  section.specialties h3 {
     font-size: 3.5rem;
   }
-  section.extentsions p {
+  section.specialties p {
     font-size: 2.5rem;
   }
-  section.extentsions .wrapper div img {
+  section.specialties .wrapper div img {
     width: 180px;
   }
-  section.extentsions .wrapper div {
+  section.specialties .wrapper div {
     height: 800px;
     padding: 80px;
     gap: 40px;
   }
-  section.extentsions span a {
+  section.specialties span a {
     font-size: 3.4rem;
   }
-  section.extentsions .wrapper div:last-child img {
+  section.specialties .wrapper div:last-child img {
     width: 60px;
   }
 }
