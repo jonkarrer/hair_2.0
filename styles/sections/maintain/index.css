@@ -94,11 +94,81 @@ section.maintain .bi-fold .right {
     font-size: 1.5rem;
   }
   section.maintain .bi-fold ul p {
-    font-size: var(--sm);
+    font-size: 1.3rem;
     line-height: 1.4;
   }
   section.maintain .wrapper {
     width: 90%;
     margin: auto;
+  }
+}
+/*XXl*/
+@media (min-width: 1536px) {
+  section.maintain .bi-fold h2 {
+    font-size: 3rem;
+  }
+  section.maintain .bi-fold h3 {
+    font-size: var(--md);
+  }
+  section.maintain .bi-fold ul p {
+    font-size: 1.6rem;
+    line-height: 1.4;
+  }
+  section.maintain .headline {
+    margin: 160px auto;
+    width: 70%;
+    font-size: 1.9rem;
+  }
+  section.maintain .bi-fold ul {
+    gap: 20px;
+  }
+}
+/*2k*/
+@media (min-width: 2000px) {
+  section.maintain {
+    padding: 60px 0;
+  }
+  section.maintain .bi-fold h2 {
+    font-size: 4rem;
+  }
+  section.maintain .bi-fold h3 {
+    font-size: var(--lg);
+  }
+  section.maintain .bi-fold ul p {
+    font-size: 1.9rem;
+    line-height: 1.4;
+  }
+  section.maintain .headline {
+    margin: 180px auto;
+    width: 50%;
+    font-size: 3rem;
+  }
+
+  section.maintain .wrapper {
+    width: 90%;
+    margin: auto;
+  }
+  section.maintain .bi-fold .left {
+    padding: 50px;
+  }
+
+  section.maintain .bi-fold .right {
+    padding: 40px 50px;
+  }
+  section.maintain .bi-fold ul {
+    gap: 25px;
+  }
+}
+/*4k*/
+@media (min-width: 3000px) {
+  section.maintain {
+    padding: 120px 0;
+  }
+  section.maintain .bi-fold ul p {
+    font-size: 2.3rem;
+    line-height: 1.4;
+  }
+  section.maintain .bi-fold {
+    gap: 100px;
   }
 }
