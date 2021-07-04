@@ -33,7 +33,7 @@ section.ibe_black_strip article button:hover {
     padding: 40px 0;
   }
   section.ibe_black_strip article {
-    gap: 15px;
+    gap: 20px;
   }
   section.ibe_black_strip img {
     width: 200px;
@@ -41,14 +41,14 @@ section.ibe_black_strip article button:hover {
   section.ibe_black_strip p {
     font-size: var(--sm);
   }
-}
-/*Lg*/
-@media (min-width: 1024px) {
   section.ibe_black_strip article button {
-    font-size: var(--xxs);
+    width: 50%;
+    padding: 5px;
+    margin: auto;
+    font-size: var(--xs);
   }
 }
-/*2xl*/
+/*XXl*/
 @media (min-width: 1536px) {
   section.ibe_black_strip .wrapper {
     max-width: 1500px;
@@ -60,7 +60,7 @@ section.ibe_black_strip article button:hover {
     width: 300px;
   }
   section.ibe_black_strip article button {
-    font-size: var(--base);
+    font-size: var(--sm);
   }
 }
 /*3xl*/

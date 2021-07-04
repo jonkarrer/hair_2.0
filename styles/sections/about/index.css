@@ -3,16 +3,16 @@ section.about {
   min-height: 400px;
   display: grid;
   place-items: center;
+  padding: 20px 0;
 }
 section.about .wrapper {
   width: 95%;
   padding: 10px;
   max-width: 800px;
-  border-left: var(--dk-grey) solid thick;
 }
 section.about article {
   display: grid;
-  gap: 10px;
+  gap: 15px;
 }
 section.about article h2 {
   font-size: var(--base);
@@ -29,6 +29,7 @@ section.about article span cite {
   section.about .wrapper {
     padding: 30px;
     max-width: 800px;
+    border-left: var(--dk-grey) solid thick;
   }
   section.about article h2 {
     font-size: var(--base);

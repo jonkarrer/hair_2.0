@@ -1,5 +1,5 @@
 section.parallax {
-  margin: 40px 0;
+  margin-top: 40px;
   height: 75vh;
   display: flex;
   flex-direction: column;
@@ -39,9 +39,6 @@ section.parallax p {
 
 /*Md*/
 @media (min-width: 768px) {
-  section.parallax {
-    margin: 40px 0;
-  }
   section.parallax .wrapper {
     width: 70%;
   }
@@ -58,7 +55,7 @@ section.parallax p {
 /*Lg*/
 @media (min-width: 1024px) {
   section.parallax {
-    margin: 60px 0;
+    margin-top: 60px;
   }
   section.parallax .wrapper {
     max-width: 700px;

@@ -58,6 +58,13 @@ a {
   text-decoration: none;
   color: inherit;
 }
+button {
+  outline: none;
+  border: none;
+  background: var(--lt-grey);
+  color: var(--dk-mauve);
+  border-radius: 0.2rem;
+}
 /*Mobile*/
 @media (min-width: 400px) {
 }
