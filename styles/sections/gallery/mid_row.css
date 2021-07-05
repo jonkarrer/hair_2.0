@@ -2,7 +2,8 @@ section.gallery .mid-row {
   margin-top: 6px;
   height: 18vh;
   width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 6px;
   min-height: 150px;
 }

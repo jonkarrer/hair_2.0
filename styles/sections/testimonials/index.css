@@ -28,6 +28,10 @@ section.testimonials .wrapper div cite {
     width: 90%;
     display: flex;
     justify-content: space-between;
+    gap: 0;
+  }
+  section.testimonials .wrapper div {
+    margin: 0 30px;
   }
 }
 

@@ -2,7 +2,8 @@ section.gallery .bottom_row {
   margin-top: 6px;
   height: 28vh;
   width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
   gap: 6px;
   min-height: 240px;
 }
