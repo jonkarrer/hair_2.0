@@ -3,7 +3,7 @@ section.gallery .mid-row {
   height: 18vh;
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 6px;
   min-height: 150px;
 }
@@ -63,6 +63,7 @@ section.gallery .mid-row .right {
     margin-top: 15px;
     height: 23vh;
     gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
   }
   section.gallery .mid-row h3 {
     font-size: 1.1rem;

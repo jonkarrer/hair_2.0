@@ -1,6 +1,6 @@
 section.gallery .top-row {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 6px;
   width: 100%;
   height: 40vh;
@@ -63,6 +63,7 @@ section.gallery .top-row .mid div {
 /*Md*/
 @media (min-width: 768px) {
   section.gallery .top-row {
+    grid-template-columns: 1fr 1fr 1fr;
     height: 55vh;
   }
   section.gallery .top-row .right {
