@@ -95,11 +95,11 @@ section.maintain .bi-fold .right {
     font-size: 1.5rem;
   }
   section.maintain .bi-fold ul p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 1.4;
   }
   section.maintain .wrapper {
-    width: 90%;
+    width: 95%;
     margin: auto;
   }
 }

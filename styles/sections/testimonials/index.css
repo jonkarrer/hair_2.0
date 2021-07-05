@@ -1,0 +1,65 @@
+section.testimonials {
+  padding: 80px 0;
+}
+section.testimonials .wrapper {
+  width: 85%;
+  margin: auto;
+  display: grid;
+  gap: 100px;
+}
+section.testimonials .wrapper div {
+  display: grid;
+  gap: 20px;
+}
+section.testimonials .wrapper div p {
+  font-size: var(--xs);
+  line-height: 1.4;
+}
+section.testimonials .wrapper div img {
+  width: 100px;
+}
+section.testimonials .wrapper div cite {
+  font-size: var(--sm);
+}
+
+/*Lg*/
+@media (min-width: 1024px) {
+  section.testimonials .wrapper {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/*XXl*/
+@media (min-width: 1536px) {
+  section.testimonials {
+    padding: 120px 0;
+  }
+  section.testimonials .wrapper div p {
+    font-size: var(--sm);
+    line-height: 1.4;
+  }
+  section.testimonials .wrapper div img {
+    width: 140px;
+  }
+  section.testimonials .wrapper div cite {
+    font-size: var(--base);
+  }
+}
+/*4k*/
+@media (min-width: 3000px) {
+  section.testimonials {
+    padding: 160px 0;
+  }
+  section.testimonials .wrapper div p {
+    font-size: var(--base);
+    line-height: 1.5;
+  }
+  section.testimonials .wrapper div img {
+    width: 200px;
+  }
+  section.testimonials .wrapper div cite {
+    font-size: var(--md);
+  }
+}

@@ -103,7 +103,7 @@ header .mobile_burger div {
 /*4xl*/
 @media (min-width: 3000px) {
   header {
-    height: 80px;
+    height: 120px;
     padding: 0 60px;
   }
   header .logo {

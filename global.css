@@ -5,6 +5,7 @@
 /*Components*/
 @import url("styles/components/header.css");
 @import url("styles/components/btn.css");
+@import url("styles/components/footer.css");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -64,6 +65,9 @@ button {
   background: var(--lt-grey);
   color: var(--dk-mauve);
   border-radius: 0.2rem;
+}
+button:hover {
+  cursor: pointer;
 }
 /*Mobile*/
 @media (min-width: 400px) {
