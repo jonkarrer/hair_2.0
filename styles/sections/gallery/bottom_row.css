@@ -25,11 +25,11 @@ section.gallery .bottom_row .right article {
   color: white;
   display: grid;
   place-items: center;
-  gap: 15px;
+  gap: 20px;
   font-size: 0.6rem;
 }
 section.gallery .bottom_row .right article .ibe_icon {
-  width: 50px;
+  width: 70px;
 }
 
 /*Sm*/

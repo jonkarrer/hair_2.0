@@ -69,12 +69,7 @@ button {
 button:hover {
   cursor: pointer;
 }
-/*Mobile*/
-@media (min-width: 400px) {
-}
-/*Xs*/
-@media (min-width: 500px) {
-}
+
 /*Sm*/
 @media (min-width: 640px) {
 }

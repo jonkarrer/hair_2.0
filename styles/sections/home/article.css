@@ -2,6 +2,15 @@
 article.hero {
   animation: fade_in 2s;
 }
+article.hero h1 {
+  animation: fade_in 4s;
+}
+article.hero p {
+  animation: fade_in 6s;
+}
+article.hero span {
+  animation: fade_in 8s;
+}
 
 article.hero {
   margin-left: 10px;
@@ -17,7 +26,7 @@ article.hero {
 article.hero h1 {
   font-size: var(--lg);
   color: var(--dk-gold);
-  line-height: 1.1;
+  line-height: 1.2;
 }
 article.hero p {
   font-size: var(--xs);
@@ -41,6 +50,7 @@ article.hero p {
     width: 50vw;
   }
 }
+
 /*Lg*/
 @media (min-width: 1024px) {
   article.hero h1 {

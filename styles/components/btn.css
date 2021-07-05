@@ -6,12 +6,12 @@
   cursor: pointer;
 }
 .btn a {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   padding-right: 0.5rem;
   color: var(--lt-grey);
 }
 .btn .arrow_icon {
-  width: 1.2rem;
+  width: 1.3rem;
 }
 /*Sm*/
 @media (min-width: 640px) {
@@ -23,25 +23,23 @@
     cursor: pointer;
   }
   .btn a {
-    font-size: 1.5rem;
-    padding-right: 0.5rem;
-    color: var(--lt-grey);
+    font-size: 1.6rem;
   }
   .btn .arrow_icon {
     width: 1.6rem;
   }
 }
-/*2xl*/
+/*XXl*/
 @media (min-width: 1536px) {
   .btn a {
     font-size: var(--base);
   }
   .btn .arrow_icon {
-    width: 3rem;
+    width: 2rem;
   }
 }
 
-/*3xl*/
+/*2k*/
 @media (min-width: 2000px) {
   .btn a {
     font-size: var(--lg);

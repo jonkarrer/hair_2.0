@@ -7,16 +7,17 @@
 /*Xl*/
 @media (min-width: 1280px) {
   .features_box {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.4);
     position: absolute;
     top: 70px;
     left: 40px;
     width: 200px;
     display: grid;
     place-items: center;
+    padding: 20px 0;
   }
   .features_box {
-    animation: slide_right 2s;
+    animation: slide_right 3s;
   }
   .features_box div {
     display: grid;
@@ -40,12 +41,34 @@
   }
 }
 
-/*3xl*/
+/*XXl*/
+@media (min-width: 1536px) {
+  .features_box {
+    top: 80px;
+    left: 50px;
+    width: 250px;
+  }
+  .features_box div {
+    padding: 15px;
+    gap: 10px;
+  }
+  .features_box h3 {
+    font-size: var(--base);
+  }
+  .features_box menu p {
+    font-size: var(--sm);
+  }
+  .features_box div img {
+    width: 80px;
+  }
+}
+
+/*2k*/
 @media (min-width: 2000px) {
   .features_box {
     top: 120px;
     left: 60px;
-    width: 400px;
+    width: 350px;
   }
   .features_box div {
     padding: 20px;
@@ -63,9 +86,9 @@
 }
 
 /*4k*/
-@media (min-width: 3500px) {
+@media (min-width: 3000px) {
   .features_box {
-    top: 120px;
+    top: 130px;
     left: 100px;
     width: 400px;
   }

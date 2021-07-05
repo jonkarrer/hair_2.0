@@ -38,7 +38,6 @@ section.about article span cite {
     line-height: 1.6;
   }
   section.about article span cite {
-    float: right;
     font-size: var(--sm);
   }
 }
@@ -46,7 +45,6 @@ section.about article span cite {
 /*Lg*/
 @media (min-width: 1024px) {
   section.about .wrapper {
-    padding: 30px;
     max-width: 1000px;
   }
   section.about article {
@@ -59,7 +57,6 @@ section.about article span cite {
     font-size: var(--xs);
   }
   section.about article span cite {
-    float: right;
     font-size: var(--sm);
   }
 }
@@ -73,7 +70,6 @@ section.about article span cite {
     font-size: var(--sm);
   }
   section.about article span cite {
-    float: right;
     font-size: var(--base);
   }
 }
@@ -95,26 +91,19 @@ section.about article span cite {
     font-size: var(--base);
   }
   section.about article span cite {
-    float: right;
     font-size: var(--lg);
   }
 }
 
 /*4k*/
 @media (min-width: 3000px) {
-  section.about .wrapper {
-    padding: 40px;
-    max-width: 2000px;
-  }
   section.about article h2 {
     font-size: var(--k);
   }
   section.about article p {
-    line-height: 1.8;
     font-size: var(--md);
   }
   section.about article span cite {
-    float: right;
     font-size: var(--xl);
   }
 }
