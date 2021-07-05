@@ -107,7 +107,7 @@ section.maintain .bi-fold .right {
 /*XXl*/
 @media (min-width: 1536px) {
   section.maintain .wrapper {
-    max-width: 1400px;
+    max-width: 2000px;
   }
   section.maintain .headline {
     margin: 120px auto;
@@ -140,8 +140,8 @@ section.maintain .bi-fold .right {
   }
   section.maintain .headline {
     margin: 180px auto;
-    width: 50%;
-    font-size: 3rem;
+    width: 70%;
+    font-size: 2.3rem;
   }
   section.maintain .bi-fold h2 {
     font-size: 4rem;
@@ -167,8 +167,16 @@ section.maintain .bi-fold .right {
 
 /*4k*/
 @media (min-width: 3000px) {
+  section.maintain .wrapper {
+    max-width: 3000px;
+  }
   section.maintain {
     padding: 120px 0;
+  }
+  section.maintain .headline {
+    margin: 180px auto;
+    width: 70%;
+    font-size: 2.8rem;
   }
   section.maintain .bi-fold {
     gap: 100px;

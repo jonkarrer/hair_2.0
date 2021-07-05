@@ -106,10 +106,10 @@ section.specialties .wrapper div:last-child img {
     font-size: var(--xs);
   }
   section.specialties .wrapper div img {
-    width: 90px;
+    width: 70px;
   }
   section.specialties .wrapper div {
-    height: 380px;
+    height: 350px;
     padding: 40px;
     gap: 20px;
   }
@@ -139,7 +139,7 @@ section.specialties .wrapper div:last-child img {
     font-size: 1.9rem;
   }
   section.specialties .wrapper div img {
-    width: 160px;
+    width: 100px;
   }
   section.specialties .wrapper div {
     height: 600px;
@@ -163,7 +163,7 @@ section.specialties .wrapper div:last-child img {
     gap: 60px;
   }
   section.specialties h1 {
-    font-size: var(--k);
+    font-size: var(--xxxxl);
     margin: 160px 0;
   }
   section.specialties h3 {
@@ -173,10 +173,10 @@ section.specialties .wrapper div:last-child img {
     font-size: 2.5rem;
   }
   section.specialties .wrapper div img {
-    width: 180px;
+    width: 120px;
   }
   section.specialties .wrapper div {
-    height: 800px;
+    height: 700px;
     padding: 80px;
     gap: 40px;
   }

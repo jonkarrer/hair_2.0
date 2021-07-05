@@ -52,6 +52,7 @@ section.parallax p {
     margin-bottom: 30px;
   }
 }
+
 /*Lg*/
 @media (min-width: 1024px) {
   section.parallax {
@@ -60,13 +61,42 @@ section.parallax p {
   section.parallax .wrapper {
     max-width: 700px;
   }
-
   section.parallax h1 {
     font-size: var(--lg);
     margin-bottom: 30px;
   }
   section.parallax p {
     font-size: var(--sm);
+    margin-bottom: 30px;
+  }
+}
+
+/*XXl*/
+@media (min-width: 1536px) {
+  section.parallax .wrapper {
+    max-width: 1000px;
+  }
+  section.parallax h1 {
+    font-size: var(--xl);
+    margin-bottom: 30px;
+  }
+  section.parallax p {
+    font-size: var(--base);
+    margin-bottom: 30px;
+  }
+}
+
+/*2k*/
+@media (min-width: 2000px) {
+  section.parallax .wrapper {
+    max-width: 1500px;
+  }
+  section.parallax h1 {
+    font-size: var(--xxl);
+    margin-bottom: 30px;
+  }
+  section.parallax p {
+    font-size: var(--md);
     margin-bottom: 30px;
   }
 }
