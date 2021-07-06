@@ -81,6 +81,7 @@ section.gallery .top-row .mid div {
   section.gallery .top-row .mid article {
     font-size: 1rem;
     padding: 5px;
+    font-size: var(--sm);
   }
 }
 

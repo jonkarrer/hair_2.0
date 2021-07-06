@@ -15,9 +15,14 @@
     display: grid;
     place-items: center;
     padding: 20px 0;
+    transform: translateX(-200%);
   }
   .features_box {
     animation: slide_right 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
   }
   .features_box div {
     display: grid;

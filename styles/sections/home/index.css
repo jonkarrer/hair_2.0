@@ -4,10 +4,11 @@
 section.home {
   background-image: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.7)
     ),
     url("../../../assets/Home/hero_mobile2.jpg");
+
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -15,16 +16,33 @@ section.home {
   display: flex;
   align-items: center;
 }
+.overlay {
+  background: black;
+  position: absolute;
+  width: 100%;
+  height: 105%;
+  animation: blackout 3s;
+  animation-fill-mode: forwards;
+}
 
 /*Md*/
 @media (min-width: 768px) {
   section.home {
     background-image: linear-gradient(
         to bottom,
-        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.7)
       ),
       url("../../../assets/Home/hero.jpg");
     display: block;
+  }
+}
+
+@keyframes blackout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }

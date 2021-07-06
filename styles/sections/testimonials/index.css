@@ -1,5 +1,6 @@
 section.testimonials {
   padding: 80px 0;
+  background: snow;
 }
 section.testimonials .wrapper {
   width: 85%;
@@ -30,8 +31,13 @@ section.testimonials .wrapper div cite {
     justify-content: space-between;
     gap: 0;
   }
+  section.testimonials .wrapper div p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
   section.testimonials .wrapper div {
-    margin: 0 30px;
+    margin: 0 20px;
+    flex: 1;
   }
 }
 

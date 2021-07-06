@@ -9,8 +9,7 @@ section.extensions img {
 }
 section.extensions .wrapper {
   width: 95%;
-  padding: 10px;
-  max-width: 800px;
+  max-width: 500px;
   margin: auto;
 }
 section.extensions .left {
@@ -18,10 +17,12 @@ section.extensions .left {
   place-items: center;
 }
 section.extensions article {
-  padding: 10px;
   display: grid;
   gap: 15px;
   color: var(--lt-grey);
+}
+section.extensions article p {
+  line-height: 1.4;
 }
 section.extensions article h2 {
   font-size: var(--base);
@@ -45,7 +46,6 @@ section.extensions button {
   }
   section.extensions button {
     height: 50px;
-    margin: 15px auto;
     font-size: var(--sm);
     width: 250px;
   }
@@ -54,23 +54,25 @@ section.extensions button {
 /*Lg*/
 @media (min-width: 1024px) {
   section.extensions .wrapper {
-    width: 100vw;
+    width: 90vw;
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 1100px;
   }
   section.extensions article {
     gap: 20px;
     width: 650px;
   }
+  section.extensions article p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
   section.extensions img {
-    width: 400px;
-    margin: auto;
+    width: 300px;
+    padding: 0 10px;
   }
   section.extensions button {
-    height: 50px;
     margin: 15px 0;
-    font-size: var(--sm);
   }
 }
 

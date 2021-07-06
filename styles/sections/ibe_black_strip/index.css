@@ -49,6 +49,18 @@ section.ibe_black_strip article button:hover {
     font-size: var(--xs);
   }
 }
+/*Lg*/
+@media (min-width: 1024px) {
+  section.ibe_black_strip p {
+    font-size: var(--base);
+  }
+  section.ibe_black_strip article button {
+    width: 50%;
+    padding: 5px;
+    margin: auto;
+    font-size: var(--sm);
+  }
+}
 
 /*XXl*/
 @media (min-width: 1536px) {

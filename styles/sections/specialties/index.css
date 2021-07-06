@@ -1,8 +1,6 @@
 section.specialties {
   padding: 40px 0;
-}
-section.specialties span a {
-  font-size: 1.5rem;
+  background: snow;
 }
 section.specialties h1 {
   text-align: center;

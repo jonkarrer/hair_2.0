@@ -1,15 +1,15 @@
 @import url("../../animations/fade_in.css");
 article.hero {
-  animation: fade_in 2s;
-}
-article.hero h1 {
-  animation: fade_in 4s;
-}
-article.hero p {
   animation: fade_in 6s;
 }
-article.hero span {
+article.hero h1 {
   animation: fade_in 8s;
+}
+article.hero p {
+  animation: fade_in 10s;
+}
+article.hero span {
+  animation: fade_in 11s;
 }
 
 article.hero {

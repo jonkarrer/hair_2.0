@@ -4,6 +4,7 @@ section.about {
   display: grid;
   place-items: center;
   padding: 20px 0;
+  background: snow;
 }
 section.about .wrapper {
   width: 95%;
