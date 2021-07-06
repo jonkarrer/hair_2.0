@@ -18,9 +18,9 @@ section.gallery .top-row .right {
   background-size: cover;
 }
 section.gallery .top-row .mid {
-  display: flex;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
   gap: 6px;
-  flex-direction: column;
   flex: 1;
 }
 section.gallery .top-row .mid article {

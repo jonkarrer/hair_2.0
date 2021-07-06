@@ -21,7 +21,7 @@ section.home {
   position: absolute;
   width: 100%;
   height: 105%;
-  animation: blackout 3s;
+  animation: blackout 4s;
   animation-fill-mode: forwards;
 }
 
