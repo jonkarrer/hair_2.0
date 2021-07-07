@@ -92,7 +92,7 @@
 /*4k*/
 @media (min-width: 3000px) {
   .features_box {
-    top: 130px;
+    top: 200px;
     left: 100px;
     width: 400px;
   }

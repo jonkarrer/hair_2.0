@@ -9,7 +9,9 @@ footer .wrapper {
   width: 80%;
   margin: auto;
 }
-
+footer .logo {
+  width: 70px;
+}
 footer .wrapper menu {
   display: flex;
   flex-direction: column;
@@ -43,6 +45,9 @@ footer .wrapper menu a {
   footer .wrapper {
     max-width: 1200px;
   }
+  footer .logo {
+    width: 120px;
+  }
 }
 
 /*XXl*/
@@ -63,6 +68,9 @@ footer .wrapper menu a {
   footer .wrapper {
     max-width: 1500px;
   }
+  footer .logo {
+    width: 180px;
+  }
 }
 
 /*2k*/
@@ -82,6 +90,9 @@ footer .wrapper menu a {
   }
   footer .wrapper {
     max-width: 2000px;
+  }
+  footer .logo {
+    width: 230px;
   }
 }
 
