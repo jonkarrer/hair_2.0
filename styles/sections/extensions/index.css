@@ -137,3 +137,32 @@ section.extensions button {
     width: 400px;
   }
 }
+
+/*4k*/
+@media (min-width: 3000px) {
+  section.extensions {
+    padding: 140px 0;
+  }
+  section.extensions .wrapper {
+    max-width: 2300px;
+  }
+  section.extensions article {
+    gap: 35px;
+    width: 1200px;
+  }
+  section.extensions img {
+    width: 800px;
+  }
+  section.extensions article h2 {
+    font-size: var(--xxxxl);
+  }
+  section.extensions article p {
+    font-size: 3rem;
+  }
+  section.extensions button {
+    height: 80px;
+    margin: 20px 0;
+    font-size: var(--md);
+    width: 400px;
+  }
+}

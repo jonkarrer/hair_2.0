@@ -11,6 +11,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 :root {
   --dark: #13292a;
   --grey: #988780;

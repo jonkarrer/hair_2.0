@@ -81,6 +81,11 @@ header .mobile_burger div {
   header .logo {
     width: 70px;
   }
+  header #desktop_menu {
+    width: 60%;
+    font-size: 1.5rem;
+    max-width: 750px;
+  }
 }
 /*3xl*/
 @media (min-width: 2000px) {
