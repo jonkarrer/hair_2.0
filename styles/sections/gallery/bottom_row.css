@@ -26,9 +26,10 @@ section.gallery .bottom_row .right article {
   display: grid;
   place-items: center;
   gap: 20px;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
+  color: var(--lt-gold);
 }
-section.gallery .bottom_row .right article .ibe_icon {
+section.gallery .bottom_row .right article .logo {
   width: 70px;
 }
 
@@ -43,9 +44,6 @@ section.gallery .bottom_row .right article .ibe_icon {
     gap: 20px;
     font-size: var(--xxs);
   }
-  section.gallery .bottom_row .right article .ibe_icon {
-    width: 75px;
-  }
 }
 
 /*Md*/
@@ -56,7 +54,7 @@ section.gallery .bottom_row .right article .ibe_icon {
   section.gallery .bottom_row .right article {
     font-size: var(--xs);
   }
-  section.gallery .bottom_row .right article .ibe_icon {
+  section.gallery .bottom_row .right article .logo {
     width: 100px;
   }
 }
@@ -67,11 +65,11 @@ section.gallery .bottom_row .right article .ibe_icon {
     height: 60vh;
   }
   section.gallery .bottom_row .right article {
-    gap: 25px;
+    gap: 20px;
     font-size: var(--sm);
   }
-  section.gallery .bottom_row .right article .ibe_icon {
-    width: 150px;
+  section.gallery .bottom_row .right article .logo {
+    width: 130px;
   }
 }
 
@@ -81,7 +79,7 @@ section.gallery .bottom_row .right article .ibe_icon {
     gap: 50px;
     font-size: var(--base);
   }
-  section.gallery .bottom_row .right article .ibe_icon {
+  section.gallery .bottom_row .right article .logo {
     width: 200px;
   }
 }
@@ -96,7 +94,7 @@ section.gallery .bottom_row .right article .ibe_icon {
     gap: 50px;
     font-size: var(--lg);
   }
-  section.gallery .bottom_row .right article .ibe_icon {
+  section.gallery .bottom_row .right article .logo {
     width: 250px;
   }
 }

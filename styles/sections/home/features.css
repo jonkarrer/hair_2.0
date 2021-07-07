@@ -9,7 +9,7 @@
   .features_box {
     background: rgba(0, 0, 0, 0.4);
     position: absolute;
-    top: 70px;
+    top: 100px;
     left: 40px;
     width: 180px;
     display: grid;
@@ -49,7 +49,7 @@
 /*XXl*/
 @media (min-width: 1536px) {
   .features_box {
-    top: 80px;
+    top: 120px;
     left: 50px;
     width: 250px;
   }
@@ -71,7 +71,6 @@
 /*2k*/
 @media (min-width: 2000px) {
   .features_box {
-    top: 120px;
     left: 60px;
     width: 350px;
   }

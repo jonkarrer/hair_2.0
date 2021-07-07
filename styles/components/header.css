@@ -2,7 +2,6 @@
 header #desktop_menu {
   display: none;
 }
-
 header {
   display: flex;
   justify-content: space-between;
@@ -11,12 +10,11 @@ header {
   position: fixed;
   top: 0;
   width: 100vw;
-  height: 40px;
   z-index: 2;
   color: white;
 }
 header .logo {
-  font-size: 28px;
+  width: 45px;
 }
 header #mobile_menu {
   position: absolute;
@@ -37,7 +35,7 @@ header .mobile_burger {
   height: 25px;
 }
 header .mobile_burger div {
-  height: 4px;
+  height: 3px;
   border-radius: 2rem;
   width: 25px;
   background: white;
@@ -52,7 +50,7 @@ header .mobile_burger div {
 /*Md*/
 @media (min-width: 768px) {
   header {
-    padding: 30px 40px;
+    padding: 10px 60px;
   }
   header .logo {
     font-size: 30px;
@@ -66,7 +64,6 @@ header .mobile_burger div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 35px;
     width: 60%;
     max-width: 430px;
     font-size: 1rem;

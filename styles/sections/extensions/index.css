@@ -1,7 +1,7 @@
 section.extensions {
   padding: 40px 0;
   background: var(--dk-grey);
-  height: 100vh;
+  min-height: 100vh;
 }
 section.extensions img {
   width: 200px;

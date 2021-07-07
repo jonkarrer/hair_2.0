@@ -12,6 +12,9 @@ section.gallery .wrapper {
   display: grid;
   place-items: center;
 }
+article.hover_component {
+  display: none;
+}
 
 /*Sm*/
 @media (min-width: 640px) {
@@ -22,12 +25,45 @@ section.gallery .wrapper {
     background: var(--grey);
     padding: 60px 0;
   }
+
+  /* Creates the hover effect */
+  article.hover_component {
+    color: white;
+    display: grid;
+    place-content: center;
+    gap: 20px;
+    font-size: var(--xs);
+    color: var(--lt-gold);
+    height: 100%;
+    width: 100%;
+    background: var(--dk-grey);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  article.hover_component .logo {
+    width: 120px;
+    margin: auto;
+  }
+  article.hover_component span {
+    margin: auto;
+  }
+  article.hover_component:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
 }
 
 /*Lg*/
 @media (min-width: 1024px) {
   section.gallery {
     padding: 80px 0;
+  }
+  article.hover_component {
+    gap: 20px;
+    font-size: var(--sm);
+  }
+  article.hover_component .logo {
+    width: 140px;
   }
 }
 
@@ -36,11 +72,25 @@ section.gallery .wrapper {
   section.gallery {
     padding: 100px 0;
   }
+  article.hover_component {
+    gap: 25px;
+    font-size: var(--base);
+  }
+  article.hover_component .logo {
+    width: 160px;
+  }
 }
 
 /*2k*/
 @media (min-width: 2000px) {
   section.gallery {
     padding: 120px 0;
+  }
+  article.hover_component {
+    gap: 30px;
+    font-size: var(--lg);
+  }
+  article.hover_component .logo {
+    width: 180px;
   }
 }
