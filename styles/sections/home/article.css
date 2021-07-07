@@ -1,15 +1,30 @@
 @import url("../../animations/fade_in.css");
 article.hero {
-  animation: fade_in 6s;
+  animation: fade_in 1s;
 }
 article.hero h1 {
-  animation: fade_in 8s;
+  animation: fade_in 3s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  opacity: 0;
 }
 article.hero p {
-  animation: fade_in 10s;
+  animation: fade_in 3s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  opacity: 0;
 }
 article.hero span {
-  animation: fade_in 11s;
+  animation: fade_in 3s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  opacity: 0;
 }
 
 article.hero {

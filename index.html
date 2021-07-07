@@ -7,6 +7,19 @@
     <link rel="stylesheet" href="global.css" />
     <link rel="stylesheet" href="./styles/index.css" />
     <title>Hair by Amanda Website</title>
+    <style>
+      .hidden {
+        opacity: 0;
+      }
+
+      .visible {
+        opacity: 1;
+        transition: opacity 1s ease-out;
+        -o-transition: opacity 1s ease-out;
+        -moz-transition: opacity 1s ease-out;
+        -webkit-transition: opacity 1s ease-out;
+      }
+    </style>
   </head>
   <header id="header">
     <div href="" class="logo">Hair by Amanda</div>
@@ -407,4 +420,7 @@
     </footer>
     <script type="module" src="./index.js"></script>
   </body>
+  <script>
+    document.body.className = "hidden";
+  </script>
 </html>

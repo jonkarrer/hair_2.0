@@ -45,9 +45,9 @@ section.extensions button {
     line-height: 1.6;
   }
   section.extensions button {
-    height: 50px;
-    font-size: var(--sm);
-    width: 250px;
+    height: 40px;
+    font-size: var(--xs);
+    width: 200px;
   }
 }
 

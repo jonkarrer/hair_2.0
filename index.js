@@ -15,3 +15,6 @@ window.onscroll = () => {
     window.scrollY / document.documentElement.clientHeight
   })`;
 };
+
+//Create fade in
+window.addEventListener("load", () => (document.body.className = "visible"));
