@@ -2,6 +2,12 @@ import { dropMenu } from "./utils/navDrop.js";
 
 document.getElementById("burger").addEventListener("click", () => dropMenu());
 
+document
+  .getElementById("mobile_menu")
+  .childNodes.forEach((item) =>
+    item.addEventListener("click", () => dropMenu())
+  );
+
 //Change header color
 window.onscroll = () => {
   const header = document.getElementById("header");
