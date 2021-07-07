@@ -1,5 +1,4 @@
 section.specialties {
-  padding: 40px 0;
   background: snow;
 }
 section.specialties h1 {
@@ -70,9 +69,6 @@ section.specialties .wrapper div:last-child img {
 }
 /*XXl*/
 @media (min-width: 1536px) {
-  section.specialties {
-    padding: 60px 0;
-  }
   section.specialties h1 {
     font-size: var(--xl);
     margin: 100px 0;
