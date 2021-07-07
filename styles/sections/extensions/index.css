@@ -1,6 +1,7 @@
 section.extensions {
   padding: 40px 0;
   background: var(--dk-grey);
+  height: 100vh;
 }
 section.extensions img {
   width: 200px;
@@ -53,6 +54,9 @@ section.extensions button {
 
 /*Lg*/
 @media (min-width: 1024px) {
+  section.extensions {
+    padding: 100px 0;
+  }
   section.extensions .wrapper {
     width: 90vw;
     display: flex;
@@ -79,7 +83,7 @@ section.extensions button {
 /*XXl*/
 @media (min-width: 1536px) {
   section.extensions {
-    padding: 80px 0;
+    padding: 100px 0;
   }
   section.extensions .wrapper {
     max-width: 1500px;

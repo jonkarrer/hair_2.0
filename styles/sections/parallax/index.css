@@ -54,9 +54,6 @@ section.parallax p {
 
 /*Lg*/
 @media (min-width: 1024px) {
-  section.parallax {
-    margin-top: 60px;
-  }
   section.parallax .wrapper {
     max-width: 700px;
   }
