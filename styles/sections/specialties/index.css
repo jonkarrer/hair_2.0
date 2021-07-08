@@ -3,7 +3,7 @@ section.specialties {
 }
 section.specialties h1 {
   text-align: center;
-  margin: 50px 0;
+  padding: 50px 0;
   color: var(--dk-mauve);
   font-size: var(--md);
 }
@@ -64,7 +64,7 @@ section.specialties .wrapper div:last-child img {
   }
   section.specialties h1 {
     font-size: var(--lg);
-    margin: 80px 0;
+    padding: 80px 0;
   }
 }
 /*XXl*/
