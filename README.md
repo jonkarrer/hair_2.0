@@ -36,7 +36,7 @@ Users should be able to:
 ## My process
 
 1. Design the site.
-2. Go one sectin at a time.
+2. Go one section at a time.
 3. Use Css imports to organize code.
 4. Use media queries to make site responsive.
 5. Use javascript to add small animations.
@@ -44,19 +44,9 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
+- CSS modern properties
+- Flexbox & Grid
 - Mobile-first workflow
-
-### What I learned
-
-### Some unique code snippets
-
-### Continued development
-
-### Useful resources
-
-- [Design]](<https://figaro-salon.webflow.io>) - Used this as my design inspiration.
 
 ## Documentation
 

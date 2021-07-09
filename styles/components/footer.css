@@ -13,6 +13,7 @@ footer p {
   right: 0;
   margin: auto;
   color: var(--lt-gold);
+  text-align: right;
 }
 footer .wrapper {
   display: grid;
