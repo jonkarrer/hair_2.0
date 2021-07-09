@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Screenshot
 
--TBD
+![screenshot of website](./assets/readme.png)
 
 ## My process
 

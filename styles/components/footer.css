@@ -1,7 +1,18 @@
 footer {
-  padding: 40px 0;
+  padding: 60px 0;
   background: var(--dk-grey);
   color: var(--lt-grey);
+  position: relative;
+}
+footer p {
+  position: absolute;
+  width: 80%;
+  bottom: 15px;
+  margin-top: 20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: var(--lt-gold);
 }
 footer .wrapper {
   display: grid;
