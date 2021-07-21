@@ -46,7 +46,7 @@ section.extensions button {
     line-height: 1.6;
   }
   section.extensions button {
-    height: 40px;
+    height: 50px;
     font-size: var(--xs);
     width: 200px;
   }
